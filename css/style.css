@@ -66,9 +66,9 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 15px 10px 15px 10px;
+  padding: 15px 0 15px 0;
   position: fixed;
-  width: 312px;
+  width: 480px;
 	background-color: #FFFFFF;
 	height: 45px;
 }
@@ -84,17 +84,31 @@ nav {
 
 .info {
 	padding-top: 45px;
+  display:inline-block;
+}
+
+.line {
+	padding: 3%;
+	width: 100%;
+  float:left;
+	background-color: #FFFFFF;
+  display: inline-block;
 }
 
 .direction {
 	padding: 3%;
-	width: 65%;
+	width: 100%;
+  float:center;
 	background-color: #FFFFFF;
-  border-bottom: .5px solid #313030;
+  display: inline-block;
 }
 
-.content {
-	display: inline-block;
+.frequency {
+  padding: 3%;
+	width: 100%;
+  float:right;
+	background-color: #FFFFFF;
+  display: inline-block;
 }
 
 h1 {
@@ -102,6 +116,7 @@ h1 {
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -111,23 +126,15 @@ h2 {
   text-transform: uppercase;
   color: #00abff;
   line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: .5px solid #313030;
 }
 
 h3 {
-	font-family: Gotham, sans-serif;
-	font-size: 14px;
-  font-weight: 300;
-	color: black;
-}
-
-.content, h4 {
-	font-family: Gotham, sans-serif;
+  font-family: Gotham, sans-serif;
 	font-weight: lighter;
-	font-size: 12px;
+	font-size: 20px;
 	color: black;
-	line-height: 20px;
-}
-
-.direction:hover {
-	background-color: #e9eaea;
+	line-height: 30px;
 }
