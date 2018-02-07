@@ -55,31 +55,29 @@ body {
   margin: 0 auto;
   background-color: #e7e7e7;
   font-family: sans-serif;
-  width: 400px;
-  height: 900px;
+  width: 360px;
+  height: 700px;
   padding-top: 10px;
 }
 
 section {
   background-color: #FFFFFF;
   padding-top: 10px;
-  width: 400px;
-  height: 550px;
-  overflow: scroll;
+  height: 450px;
 }
 
 article {
-  width: 400px;
   background-color: #FFFFFF;
 }
 
 nav {
   margin: 0 auto;
-  padding:20px;
-  position: fixed;
-  width: 400px;
 	background-color: #FFFFFF;
-	height: 55px;
+	height: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98%;
+  background-image: url(../images/Statusbar.jpg);
 }
 
 h1 {
@@ -87,43 +85,52 @@ h1 {
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom:15px;
 }
 
 h2 {
   font-family: Gotham, sans-serif;
   font-size: 11px;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
   color: #00abff;
   line-height: 18px;
-  padding-top: 65px;
-  padding-bottom: 5px;
+  padding-top: 50px;
+  padding-bottom: 3px;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: .25px solid #313030;
+  border-bottom: .10px solid #313030;
 }
 
 h3, h4, h5 {
   font-family: Gotham, sans-serif;
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 13px;
   color: black;
-  line-height: 24px;
+  line-height: 22px;
 }
 
 h3 {
   float:left;
   padding-left: 15px;
-  width: 2px;
+  width: 1%;
 }
 
 h4 {
   float:left;
-  padding-left: 55px;
+  padding-left: 40px;
+  width: 56%;
 }
 
 h5 {
-  float: right;
+  float: left;
   padding-right: 15px;
+}
+
+.fas {
+  float: left;
+  width: 5%;
+  padding-left: 15px
+  color: #000000;
 }
