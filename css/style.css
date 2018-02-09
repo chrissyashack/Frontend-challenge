@@ -56,18 +56,24 @@ body {
   background-color: #e7e7e7;
   font-family: sans-serif;
   width: 360px;
-  height: 700px;
+  height: 860px;
   padding-top: 10px;
 }
 
 section {
   background-color: #FFFFFF;
   padding-top: 10px;
-  height: 450px;
+  height: 550px;
 }
 
 article {
   background-color: #FFFFFF;
+}
+
+i {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 25px;
 }
 
 nav {
@@ -81,12 +87,14 @@ nav {
 }
 
 h1 {
+  display: inline-block;
   font-family: Gotham, sans-serif;
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom:15px;
+  padding-left: 45px;
 }
 
 h2 {
@@ -128,7 +136,8 @@ h5 {
   padding-right: 15px;
 }
 
-.fas {
+.fa {
+  display: inline-block;
   float: left;
   width: 5%;
   padding-left: 15px
